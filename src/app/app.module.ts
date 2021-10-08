@@ -10,6 +10,12 @@ import { GaleriaImgComponent } from './COMPONENTS/galeria-img/galeria-img.compon
 import { GaleriaGamesComponent } from './COMPONENTS/galeria-games/galeria-games.component';
 import { FooterComponent } from './COMPONENTS/footer/footer.component';
 import { InicioComponent } from './COMPONENTS/inicio/inicio.component';
+import { GatuhRunComponent } from './COMPONENTS/gatuh-run/gatuh-run.component';
+import { PurucuComponent } from './COMPONENTS/purucu/purucu.component';
+import { LmmComponent } from './COMPONENTS/lmm/lmm.component';
+import { FmcComponent } from './COMPONENTS/fmc/fmc.component';
+import { MuseoComponent } from './COMPONENTS/museo/museo.component';
+import { OtrosComponent } from './COMPONENTS/otros/otros.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +25,13 @@ import { InicioComponent } from './COMPONENTS/inicio/inicio.component';
     GaleriaImgComponent,
     GaleriaGamesComponent,
     FooterComponent,
-    InicioComponent
+    InicioComponent,
+    GatuhRunComponent,
+    PurucuComponent,
+    LmmComponent,
+    FmcComponent,
+    MuseoComponent,
+    OtrosComponent
   ],
   imports: [
     BrowserModule,
